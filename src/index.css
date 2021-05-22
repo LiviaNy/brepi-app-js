@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  color: #333;
+}
+
+.header {
+  width: 300px;
+  margin: 50px auto;
+}
+
+.images {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: auto;
+}
+
+.beer {
+  display: grid;
+  grid-template-rows: 9fr, 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+p {
+  align-self: flex-end;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  padding: 5px 50px;
+  align-self: flex-end;
+}
+
+.paginator {
+  width: 15%;
+  margin: 50px auto;
+}
+
+.paginator button {
+  all: unset;
+  border: 1px solid lightgray;
+  color: deepskyblue;
+  padding: 2px 5px;
+}
+
+.paginator button:hover {
+  background-color: lightgrey;
+}
